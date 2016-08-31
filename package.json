@@ -1,0 +1,22 @@
+{
+  "name": "anime-finder",
+  "version": "0.0.1",
+  "description": "find anime episodes quick!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakariaRidouh/anime-finder.git"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "Zakaria Ridouh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZakariaRidouh/anime-finder/issues"
+  },
+  "homepage": "https://github.com/ZakariaRidouh/anime-finder#readme"
+}
