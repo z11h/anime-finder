@@ -2,4 +2,4 @@
 
 const BASE_URL = `http://www.animefreak.tv/`
 
-exports.getUrl = (name, epiNum) => `${BASE_URL}/watch/${name}-episode-${epiNum}-english-dubbed-online-free`;
+exports.getUrl = (baseUrl = BASE_URL, name, epiNum) => `${baseUrl}/watch/${name}-episode-${epiNum}-english-dubbed-online-free`;
