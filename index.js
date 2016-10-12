@@ -8,7 +8,7 @@ function getUrl (baseUrl = BASE_URL, name, epiNum) {
   }
 }
 
-function getUrl (baseUrl = BASE_URL, name, currentEpiNum) {
+function getNextEpisode (baseUrl = BASE_URL, name, currentEpiNum) {
   if (typeof name === 'string' && typeof epiNum === 'number') {
     return `${baseUrl}/watch/${name}-episode-${currentEpiNum + 1}-english-dubbed-online-free`
   }
