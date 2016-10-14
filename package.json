@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ZakariaRidouh/anime-finder/issues"
   },
-  "homepage": "https://github.com/ZakariaRidouh/anime-finder#readme"
+  "homepage": "https://github.com/ZakariaRidouh/anime-finder#readme",
+  "dependencies": {
+    "got": "^6.5.0"
+  }
 }
