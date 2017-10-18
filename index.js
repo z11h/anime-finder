@@ -2,11 +2,13 @@
 
 const got = require('got')
 
-const BASE_URL = `http://www.animefreak.tv/`
+const BASE_URL = `http://www.animefreak.tv/` //reliable site
 
 function getUrl (baseUrl = BASE_URL, name, epiNum) {
   if (typeof name === 'string' && typeof epiNum === 'number') {
     return `${baseUrl}/watch/${name}-episode-${epiNum}-english-dubbed-online-free`
+  } else {
+    return `http://www.animefreak.tv/`
   }
 }
 
